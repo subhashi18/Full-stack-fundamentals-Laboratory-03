@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar sm:navbar-expand bg-1 fg-2">
+     <div class="container-fluid">
+        <a class="navbar-brand" href="#">LMS</a>
+            <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+        <dialog class="drawer drawer-end" tabindex="-1" id="navbarNav" aria-labelledby="navbarNavLabel">
+            <div class="drawer-header">
+                <h5 class="drawer-title" id="navbarNavLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+            </div>
+            <div class="drawer-body">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </dialog>
+      </div>
+    </nav>
+
+    <section class="home">
+            <div class="fs-5xl">
+                <p class="text-center">Welcome to the LMS Platform</p>
+            </div>
+            <div class="fs-sm">
+                <p class="text-center"> get way to knowledge and succes. Explore a wide variety of courses and resources.</p>
+            </div>
+            <div class="button-container">
+                <button type="button" class="btn btn-primary">Get Started</button>
+            </div> 
+    </section>
+    <br>
+    <section class="Feratures">
+        <h1>Features</h1>
+        <div class="section-container">
+        <div class="Feratures-topics">
+            <h4 class="Feratures-heading">Extensive Course Library</h4>
+            <p class="Feratures-text"> Access courses in a variety of fields and skill levels.</p>
+        </div>
+        <div class="Feratures-topics">
+            <h4 class="Feratures-heading">Interactive Discussions</h4>
+            <p class="Feratures-text"> Engage in live discussions and group projects.</p>
+        </div>
+        <div class="Feratures-topics">
+            <h4 class="Feratures-heading">Certifications</h4>
+            <p class="Feratures-text"> Earn certificates to showcase your achievements.</p>
+        </div>
+        </div>
+    </section>
+
+    <section class="courses" id="courses">
+        <h2> Popular Courses</h2>
+        <div class="Course-list">
+            <div class="course-card">
+                <div class="Course-type">Web Development</div>
+                <div class="Course-content">
+                    <h4>Web Development</h4>
+                    <p>Learn to build modern, responsive websites using HTML, CSS, and JavaScript.</p>
+                    <a href="#" class="learn-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="Course-type">Data Science</div>
+                <div class="Course-content">
+                    <h4>Data Science</h4>
+                    <p>Master data analysis, visualization,and machine learning techniques.</p>
+                    <a href="#" class="learn-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="Course-type">Digital Marketing</div>
+                <div class="Course-content">
+                    <h4>Digital Marketing</h4>
+                    <p>Understand SEO, social media marketing,and online branding strategies.</p>
+                    <a href="#" class="learn-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="footer">
+        <p>&copy;2026 LMS platform.All Right reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of use</a>
+        </div>
+    </footer>
+  </body>
+</html>
